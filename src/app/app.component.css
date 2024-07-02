@@ -1,0 +1,39 @@
+div {
+    right: 20%;
+}
+
+input {
+    margin-right: 20px;
+}
+
+label {
+    margin-right: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-btn a:hoover {
+    background-color: #ddd;
+}
+
+.dropdown:hoover .dropdown-content {
+    display: block;
+}
